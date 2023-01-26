@@ -1,0 +1,18 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+#rayssa{
+    text-align: center;
+}
+.message{
+    margin: 1rem;
+}
+.message p{
+    border-radius: 10px;
+    background-color: black;
+    padding: 2%;
+    text-align: justify;
+    color: white;
+}
