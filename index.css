@@ -15,8 +15,13 @@ header{
 .message{
     margin: 1rem;
     border-radius: 30px;
-    background-color: #8A2BE2;
+    background-color: #E6E6FA;
     padding: 2%;
-    text-align: justify;
     color: black;
+}
+.message .text_justify{
+    text-align: justify;
+}
+.message .text_center{
+    text-align: center;
 }
