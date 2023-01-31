@@ -2,10 +2,9 @@
     border: 0px;
     margin: 0px;
     padding: 0px;
-    background-color: none;
 }
 body{
-    background-color: #FA58F4 !important;
+    background-color: #586D66D4 !important;
     
 }
 header{
@@ -13,11 +12,12 @@ header{
 }
 #rayssa{
     text-align: center;
+    color: #df01d7;
 }
 .message{
     margin: 1rem;
     border-radius: 30px;
-    background-color: #E6E6FA;
+    background-color: #F1AEB5DE;
     padding: 2%;
 }
 .message .text_justify{
