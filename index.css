@@ -2,13 +2,14 @@
     border: 0px;
     margin: 0px;
     padding: 0px;
+    background-color: none;
 }
 body{
-    background-color: #FA58F4;
+    background-color: #FA58F4 !important;
     
 }
 header{
-    background-color: #1C1C1C !important;
+    background-color: #1C1C1C;
 }
 #rayssa{
     text-align: center;
