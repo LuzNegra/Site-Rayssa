@@ -4,7 +4,7 @@
     padding: 0px;
 }
 body{
-    background-color: #FE2EF7 !important;
+    background-color: #FA58F4 !important;
     
 }
 header{
@@ -18,11 +18,12 @@ header{
     border-radius: 30px;
     background-color: #E6E6FA;
     padding: 2%;
-    color: black;
 }
 .message .text_justify{
     text-align: justify;
+    color: #000000;
 }
 .message .text_center{
     text-align: center;
+    color: #000000;
 }
