@@ -24,6 +24,7 @@ function Mudar_Texto() {
             text_message +
             "</p>"
     }
+    console.log(date)
 }
 
 function Selcionar_Texto() {
@@ -116,12 +117,12 @@ function Selcionar_Texto() {
                     break;
                 case 14:
                     text_center = true;
-                    text_message = "O amor não se faz apenas de carinho, mas de sentimento."+
-                    "<br>O amor não olha apenas aparência, mas o que há por dentro." +                    
-                    "<br>Ele é sofredor, é amigo, é companheiro, é querido." +
-                    "<br>E hoje, olhando para você, que me mostrou verdadeiramente o amor, eu posso dizer com certeza: te amo, te quero, te espero…" +
-                    "<br>E a cada dia que passa, a cada momento que vivo, essas palavras só aumentam, e mesmo sofrendo ou lutando, eu vou continuar falando: te amo!" +
-                    "<br><br>Eu amo vc !!! 😘😘😘";
+                    text_message = "O amor não se faz apenas de carinho, mas de sentimento." +
+                        "<br>O amor não olha apenas aparência, mas o que há por dentro." +
+                        "<br>Ele é sofredor, é amigo, é companheiro, é querido." +
+                        "<br>E hoje, olhando para você, que me mostrou verdadeiramente o amor, eu posso dizer com certeza: te amo, te quero, te espero…" +
+                        "<br>E a cada dia que passa, a cada momento que vivo, essas palavras só aumentam, e mesmo sofrendo ou lutando, eu vou continuar falando: te amo!" +
+                        "<br><br>Eu amo vc !!! 😘😘😘";
                     break;
                 case 15:
                     text_center = false;
@@ -133,7 +134,32 @@ function Selcionar_Texto() {
                     break;
                 case 17:
                     text_center = false;
-                    text_message = " Estava olhando para o céu e comecei a dar a cada estrela uma razão pela qual te quero tanto. Faltaram estrelas! Te amo!<br><br>Será que a minha gata vai vir hoje ?";
+                    text_message = "Estava olhando para o céu e comecei a dar a cada estrela uma razão pela qual te quero tanto. Faltaram estrelas! Te amo!<br><br>Será que a minha gata vai vir hoje?";
+                    break;
+                case 18:
+                    text_center = true;
+                    text_message = "Amor é quando você se apaixona pela mesma pessoa todos os dias, como se fosse a primeira vez.<br><br>Minha gata esta vindo, vou ai te buscar beijo te amo !!!";
+                    break;
+                case 19:
+                    text_center = false;
+                    text_message = "Teu olhar me encanta, teu sorriso me fascina. Tua voz me estremece, teu corpo me enrijece. Teus braços me protegem daqueles que não me merecem.<br>Nossa como e bom dormir do seu lado meu amor saiba que vc foi a melhor coisa que aconteu na minha vida 😘😘😘<br><br>obs: da parabens para a Leticia kkkk acho que depois de ontem vc esqueceu kkkkk";
+                    break;
+                case 20:
+                    text_center = false;
+                    text_message = "Tudo o que o nosso amor precisa é de cuidado." +
+                        "<br>É ser regado de carinho – todos os dias." +
+                        "<br>Ser acalmado com palavras bonitas." +
+                        "<br>Aconchegado no calor de um abraço." +
+                        "<br>Ser afagado de confiança e cumplicidade." +
+                        "<br>E ser morada da felicidade." +
+                        "<br>Eu. Você." +
+                        "<br>E só." +
+
+                        "<br><br>Mais um dia juntinhos oq achou do cafe da manha que preparei para voce?";
+                    break;
+                case 21:
+                    text_center = false;
+                    text_message = "Seu sorriso. Ele mexe comigo. Ele me transmite paz. Ele me faz permanecer seguro. Ele me deixa louco. Ele é lindo.<br><br>Sera que meu amor vai embora hoje ? vai nao mora comigo ";
                     break;
                 default:
                     text_center = true;
